@@ -1,0 +1,25 @@
+sort1 uses: bubble sort
+50000
+sorted 0.3 seconds
+reversed 5 seconds
+
+How do you know?: different running time based on lower and upper bounds
+
+sort2 uses: merge sort
+50000
+sorted 0.3 seconds
+reversed 0.3 seconds
+
+
+How do you know?: as data grows iso does it's running time, but not nearly as musch as...
+
+sort3 uses: selection sort
+50000
+sorted 3 seconds
+reversed 3 seconds
+5000
+reversed 0.09 seconds
+
+
+
+How do you know?: same running time for sorted and reversed, gorws a lot as data inreases
